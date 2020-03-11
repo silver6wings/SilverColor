@@ -1,9 +1,9 @@
 <scheme name="Goland_silver6wings" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2020-03-11T12:57:08</property>
+    <property name="created">2020-03-11T13:10:47</property>
     <property name="ide">GoLand</property>
-    <property name="ideVersion">2019.3.1.0.0</property>
-    <property name="modified">2020-03-11T12:57:14</property>
+    <property name="ideVersion">2019.3.3.0.0</property>
+    <property name="modified">2020-03-11T13:10:57</property>
     <property name="originalScheme">Goland_silver6wings</property>
   </metaInfo>
   <colors>
@@ -670,7 +670,6 @@
         <option name="FOREGROUND" value="f4f4ee" />
       </value>
     </option>
-    <option name="GO_EXPORTED_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_IDENTIFIER">
       <value>
@@ -703,6 +702,12 @@
     <option name="GO_LOCAL_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="fd971f" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="GO_LOCAL_STRUCT_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="285e1" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -756,7 +761,11 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="GO_TYPE_REFERENCE" baseAttributes="DEFAULT_CLASS_REFERENCE" />
+    <option name="GO_TYPE_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="285e1" />
+      </value>
+    </option>
     <option name="GQL_ID">
       <value>
         <option name="FOREGROUND" value="ae81ff" />
