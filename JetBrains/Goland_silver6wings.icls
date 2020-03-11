@@ -1,9 +1,9 @@
 <scheme name="silver6wings_Goland" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2020-03-11T10:58:26</property>
+    <property name="created">2020-03-11T12:15:47</property>
     <property name="ide">GoLand</property>
     <property name="ideVersion">2018.2.3.0.0</property>
-    <property name="modified">2020-03-11T10:58:31</property>
+    <property name="modified">2020-03-11T12:16:02</property>
     <property name="originalScheme">silver6wings_Goland</property>
   </metaInfo>
   <colors>
