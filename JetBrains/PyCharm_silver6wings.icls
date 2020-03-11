@@ -1,9 +1,9 @@
 <scheme name="PyCharm_silver6wings" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2019-01-07T17:51:21</property>
+    <property name="created">2020-03-11T10:58:01</property>
     <property name="ide">Python</property>
-    <property name="ideVersion">2018.2.4.0.0</property>
-    <property name="modified">2019-01-07T17:51:26</property>
+    <property name="ideVersion">2019.2.3.0.0</property>
+    <property name="modified">2020-03-11T10:58:07</property>
     <property name="originalScheme">PyCharm_silver6wings</property>
   </metaInfo>
   <colors>
@@ -1080,7 +1080,6 @@
     <option name="PY.PARAMETER">
       <value>
         <option name="FOREGROUND" value="66d9ef" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PY.PREDEFINED_DEFINITION">

@@ -1,10 +1,10 @@
 <scheme name="silver6wings_Monokai" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2019-08-22T15:38:52</property>
+    <property name="created">2020-03-11T11:05:44</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2019.2.0.0</property>
-    <property name="modified">2019-08-22T15:38:57</property>
+    <property name="ideVersion">2019.2.3.0.0</property>
+    <property name="modified">2020-03-11T11:06:04</property>
     <property name="originalScheme">silver6wings_Monokai</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -25,7 +25,7 @@
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="fe9720" />
+        <option name="FOREGROUND" value="382da" />
       </value>
     </option>
     <option name="ABSTRACT_METHOD_ATTRIBUTES">
@@ -38,7 +38,7 @@
     </option>
     <option name="ANONYMOUS_CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="fe9720" />
+        <option name="FOREGROUND" value="382da" />
       </value>
     </option>
     <option name="BAD_CHARACTER">
@@ -72,7 +72,7 @@
     </option>
     <option name="CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="fe9720" />
+        <option name="FOREGROUND" value="382da" />
       </value>
     </option>
     <option name="CONSOLE_CYAN_OUTPUT">
@@ -107,7 +107,9 @@
       </value>
     </option>
     <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="fe9720" />
+      </value>
     </option>
     <option name="CONSTRUCTOR_DECLARATION_ATTRIBUTES">
       <value>
@@ -422,7 +424,7 @@
     </option>
     <option name="INTERFACE_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="fe9720" />
+        <option name="FOREGROUND" value="382da" />
       </value>
     </option>
     <option name="Instance property reference ID">
@@ -457,6 +459,11 @@
     <option name="JAVA_STRING">
       <value>
         <option name="FOREGROUND" value="a7e22e" />
+      </value>
+    </option>
+    <option name="JAVA_VALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="7ea928" />
       </value>
     </option>
     <option name="LOCAL_VARIABLE_ATTRIBUTES">
@@ -516,13 +523,13 @@
     </option>
     <option name="PARAMETER_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ae81ff" />
+        <option name="FOREGROUND" value="66d9ee" />
       </value>
     </option>
     <option name="REASSIGNED_PARAMETER_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ae81ff" />
-        <option name="EFFECT_COLOR" value="909090" />
+        <option name="FOREGROUND" value="66d9ee" />
+        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -672,6 +679,8 @@
         <option name="FOREGROUND" value="66d9ee" />
       </value>
     </option>
+    <option name="Scala Type Alias" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
+    <option name="Scala Type parameter" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
     <option name="Scala Valid escape in string">
       <value>
         <option name="FOREGROUND" value="7fdf00" />
@@ -708,7 +717,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="f6f6f6" />
-        <option name="BACKGROUND" value="272822" />
+        <option name="BACKGROUND" value="12130d" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -760,6 +769,12 @@
       <value>
         <option name="FOREGROUND" value="181818" />
         <option name="BACKGROUND" value="e4e4e4" />
+      </value>
+    </option>
+    <option name="WRONG_REFERENCES_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="f6f6f6" />
+        <option name="BACKGROUND" value="f92772" />
       </value>
     </option>
   </attributes>
