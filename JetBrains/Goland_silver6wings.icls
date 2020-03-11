@@ -1,9 +1,9 @@
 <scheme name="Goland_silver6wings" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2020-03-11T13:10:47</property>
+    <property name="created">2020-03-11T13:22:32</property>
     <property name="ide">GoLand</property>
     <property name="ideVersion">2019.3.3.0.0</property>
-    <property name="modified">2020-03-11T13:10:57</property>
+    <property name="modified">2020-03-11T13:22:43</property>
     <property name="originalScheme">Goland_silver6wings</property>
   </metaInfo>
   <colors>
@@ -670,6 +670,7 @@
         <option name="FOREGROUND" value="f4f4ee" />
       </value>
     </option>
+    <option name="GO_EXPORTED_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="GO_IDENTIFIER">
       <value>
@@ -697,6 +698,7 @@
     <option name="GO_LOCAL_FUNCTION">
       <value>
         <option name="FOREGROUND" value="fd971f" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="GO_LOCAL_FUNCTION_CALL">
@@ -743,6 +745,12 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="GO_PACKAGE_LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="5ec6da" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="GO_REASSIGNMENT_IN_SHORT_VAR_DECLARATION">
       <value>
         <option name="FOREGROUND" value="5ec6da" />
@@ -753,6 +761,12 @@
     <option name="GO_SEMICOLON">
       <value>
         <option name="FOREGROUND" value="f4f4ee" />
+      </value>
+    </option>
+    <option name="GO_STRUCT_LOCAL_MEMBER">
+      <value>
+        <option name="FOREGROUND" value="5ec6da" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="GO_STRUCT_LOCAL_MEMBER_CALL">
