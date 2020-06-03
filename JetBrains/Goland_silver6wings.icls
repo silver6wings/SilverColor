@@ -1,9 +1,9 @@
 <scheme name="Goland_silver6wings" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2020-03-11T13:22:32</property>
+    <property name="created">2020-06-03T13:13:48</property>
     <property name="ide">GoLand</property>
-    <property name="ideVersion">2019.3.3.0.0</property>
-    <property name="modified">2020-03-11T13:22:43</property>
+    <property name="ideVersion">2019.3.4.0.0</property>
+    <property name="modified">2020-06-03T13:13:54</property>
     <property name="originalScheme">Goland_silver6wings</property>
   </metaInfo>
   <colors>
@@ -715,12 +715,7 @@
     </option>
     <option name="GO_LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="8f74f5" />
-      </value>
-    </option>
-    <option name="GO_NUMBER">
-      <value>
-        <option name="FOREGROUND" value="da40ff" />
+        <option name="FOREGROUND" value="7078ee" />
       </value>
     </option>
     <option name="GO_OPERATOR">

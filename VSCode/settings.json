@@ -1,0 +1,141 @@
+{
+    "window.zoomLevel": 0,
+    "python.pythonPath": "/usr/bin/python",
+    "explorer.confirmDelete": false,
+    "editor.tabSize": 2,
+    "files.eol": "\n",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.revealIfOpen": true,
+    "window.openFilesInNewWindow": "on",
+    "window.restoreWindows": "all",
+    "go.lintTool": "golangci-lint",
+    "workbench.iconTheme": "Monokai Classic Icons",
+    "workbench.colorTheme": "Flatland Monokai",
+    "terminal.integrated.shell.osx": "zsh",
+    "oneDarkPro.editorTheme": "nord",
+    "editor.tokenColorCustomizations": {
+        "[Flatland Monokai]": {
+            "textMateRules": [
+                {
+                "scope": "storage.type.function.python",
+                "settings": {
+                        "foreground": "#F92672",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                "scope": "storage.type.class.python",
+                "settings": {
+                        "foreground": "#F92672",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                "scope": "entity.name.type.class.python",
+                "settings": {
+                        "foreground": "#FD971F",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                "scope": "entity.name.function.python",
+                "settings": {
+                        "foreground": "#FD971F",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                "scope": "meta.function-call.generic.python",
+                "settings": {
+                        "foreground": "#FD971F",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                "scope": "support.type.python",
+                "settings": {
+                        "foreground": "#E6DB74",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                "scope": "variable.parameter.function.language.special.self.python",
+                "settings": {
+                        "foreground": "#E6DB74",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                "scope": "string.quoted.single.python",
+                "settings": {
+                        "foreground": "#A6E22E",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "variable.parameter.function.language.python",
+                    "settings": {
+                        "foreground": "#66D9EF",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "support.function.builtin.python",
+                    "settings": {
+                        "foreground": "#7078EE",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "meta.function.parameters.python",
+                    "settings": {
+                        "foreground": "#7078EE",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "constant.language.python",
+                    "settings": {
+                        "foreground": "#7078EE",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "punctuation.separator.annotation.python",
+                    "settings": {
+                        "foreground": "#F8F8F2",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "punctuation.separator.parameters.python",
+                    "settings": {
+                        "foreground": "#F8F8F2",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "punctuation.definition.parameters.begin.python",
+                    "settings": {
+                        "foreground": "#F8F8F2",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "punctuation.definition.parameters.end.python",
+                    "settings": {
+                        "foreground": "#F8F8F2",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "string.quoted.docstring.multi.python",
+                    "settings": {
+                        "foreground": "#75715E",
+                        "fontStyle": ""
+                    }
+                }
+            ]
+        }
+    }
+}
