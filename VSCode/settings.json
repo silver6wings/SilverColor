@@ -9,7 +9,6 @@
     "window.openFilesInNewWindow": "on",
     "window.restoreWindows": "all",
     "go.lintTool": "golangci-lint",
-    "workbench.iconTheme": "Monokai Classic Icons",
     "workbench.colorTheme": "Flatland Monokai",
     "terminal.integrated.shell.osx": "zsh",
     "oneDarkPro.editorTheme": "nord",
@@ -17,57 +16,64 @@
         "[Flatland Monokai]": {
             "textMateRules": [
                 {
-                "scope": "storage.type.function.python",
-                "settings": {
+                    "scope": "storage.type.function.python",
+                    "settings": {
                         "foreground": "#F92672",
                         "fontStyle": ""
                     }
                 },
                 {
-                "scope": "storage.type.class.python",
-                "settings": {
+                    "scope": "storage.type.class.python",
+                    "settings": {
                         "foreground": "#F92672",
                         "fontStyle": "bold"
                     }
                 },
                 {
-                "scope": "entity.name.type.class.python",
-                "settings": {
+                    "scope": "punctuation.section.function.begin.python",
+                    "settings": {
+                        "foreground": "#F92672",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "entity.name.type.class.python",
+                    "settings": {
                         "foreground": "#FD971F",
                         "fontStyle": ""
                     }
                 },
                 {
-                "scope": "entity.name.function.python",
-                "settings": {
+                    "scope": "entity.name.function.python",
+                    "settings": {
                         "foreground": "#FD971F",
                         "fontStyle": ""
                     }
                 },
                 {
-                "scope": "meta.function-call.generic.python",
-                "settings": {
+                    "scope": "meta.function-call.generic.python",
+                    "settings": {
                         "foreground": "#FD971F",
                         "fontStyle": ""
                     }
                 },
                 {
-                "scope": "support.type.python",
-                "settings": {
+                    "scope": "support.type.python",
+                    "settings": {
                         "foreground": "#E6DB74",
                         "fontStyle": ""
                     }
                 },
                 {
-                "scope": "variable.parameter.function.language.special.self.python",
-                "settings": {
+                    "scope": "variable.parameter.function.language.special.self.python",
+                    "settings": {
                         "foreground": "#E6DB74",
                         "fontStyle": ""
                     }
                 },
                 {
-                "scope": "string.quoted.single.python",
-                "settings": {
+                    "scope": "string.quoted.single.python",
+                    "settings": {
                         "foreground": "#A6E22E",
                         "fontStyle": ""
                     }
@@ -80,14 +86,21 @@
                     }
                 },
                 {
-                    "scope": "support.function.builtin.python",
+                    "scope": "meta.function-call.arguments.python",
                     "settings": {
-                        "foreground": "#7078EE",
+                        "foreground": "#66D9EF",
                         "fontStyle": ""
                     }
                 },
                 {
                     "scope": "meta.function.parameters.python",
+                    "settings": {
+                        "foreground": "#008CEC",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "support.function.builtin.python",
                     "settings": {
                         "foreground": "#7078EE",
                         "fontStyle": ""
@@ -129,6 +142,56 @@
                     }
                 },
                 {
+                    "scope": "punctuation.definition.arguments.begin.python",
+                    "settings": {
+                        "foreground": "#F8F8F2",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "punctuation.definition.arguments.end.python",
+                    "settings": {
+                        "foreground": "#F8F8F2",
+                        "fontStyle": ""
+                    }
+                },
+
+                {
+                    "scope": "punctuation.definition.list.begin.python",
+                    "settings": {
+                        "foreground": "#F8F8F2",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "punctuation.definition.list.end.python",
+                    "settings": {
+                        "foreground": "#F8F8F2",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "punctuation.separator.period.python",
+                    "settings": {
+                        "foreground": "#F8F8F2",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "punctuation.separator.arguments.python",
+                    "settings": {
+                        "foreground": "#F8F8F2",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "punctuation.separator.element.python",
+                    "settings": {
+                        "foreground": "#F8F8F2",
+                        "fontStyle": ""
+                    }
+                },
+                {
                     "scope": "string.quoted.docstring.multi.python",
                     "settings": {
                         "foreground": "#75715E",
@@ -137,5 +200,5 @@
                 }
             ]
         }
-    }
+    },
 }
