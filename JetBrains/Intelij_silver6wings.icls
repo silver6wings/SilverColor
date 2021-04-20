@@ -1,10 +1,10 @@
 <scheme name="silver6wings_Monokai" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2020-03-11T11:05:44</property>
+    <property name="created">2021-04-20T16:27:32</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2019.2.3.0.0</property>
-    <property name="modified">2020-03-11T11:06:04</property>
+    <property name="ideVersion">2021.1.0.0</property>
+    <property name="modified">2021-04-20T16:28:11</property>
     <property name="originalScheme">silver6wings_Monokai</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -29,7 +29,9 @@
       </value>
     </option>
     <option name="ABSTRACT_METHOD_ATTRIBUTES">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="fe9720" />
+      </value>
     </option>
     <option name="ANNOTATION_NAME_ATTRIBUTES">
       <value>
@@ -205,12 +207,12 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="74715e" />
+        <option name="FOREGROUND" value="6f6f70" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
-        <option name="FOREGROUND" value="cfbfad" />
+        <option name="FOREGROUND" value="6f6f70" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
@@ -235,7 +237,7 @@
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="a7e22e" />
+        <option name="FOREGROUND" value="31de08" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -350,7 +352,7 @@
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="272822" />
-        <option name="BACKGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="e73030" />
       </value>
     </option>
     <option name="DOC_COMMENT_TAG_VALUE">
@@ -380,7 +382,7 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="e5e7e8" />
+        <option name="EFFECT_COLOR" value="3c3f41" />
         <option name="ERROR_STRIPE_COLOR" value="96d22f" />
       </value>
     </option>
@@ -395,7 +397,9 @@
       </value>
     </option>
     <option name="INHERITED_METHOD_ATTRIBUTES">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="e6db74" />
+      </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
@@ -458,7 +462,7 @@
     </option>
     <option name="JAVA_STRING">
       <value>
-        <option name="FOREGROUND" value="a7e22e" />
+        <option name="FOREGROUND" value="31de08" />
       </value>
     </option>
     <option name="JAVA_VALID_STRING_ESCAPE">
@@ -501,7 +505,9 @@
       </value>
     </option>
     <option name="METHOD_CALL_ATTRIBUTES">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="fe9720" />
+      </value>
     </option>
     <option name="METHOD_DECLARATION_ATTRIBUTES">
       <value>
@@ -596,7 +602,7 @@
     </option>
     <option name="Scala Anonymous Parameter">
       <value>
-        <option name="FOREGROUND" value="97ff" />
+        <option name="FOREGROUND" value="66d9ee" />
       </value>
     </option>
     <option name="Scala Assign">
@@ -629,6 +635,11 @@
         <option name="FOREGROUND" value="97ff" />
       </value>
     </option>
+    <option name="Scala Keyword">
+      <value>
+        <option name="FOREGROUND" value="f92772" />
+      </value>
+    </option>
     <option name="Scala Number">
       <value>
         <option name="FOREGROUND" value="ff85ff" />
@@ -646,7 +657,7 @@
     </option>
     <option name="Scala Parameter">
       <value>
-        <option name="FOREGROUND" value="97ff" />
+        <option name="FOREGROUND" value="66d9ee" />
       </value>
     </option>
     <option name="Scala Parentheses">
@@ -656,12 +667,12 @@
     </option>
     <option name="Scala Predefined types">
       <value>
-        <option name="FOREGROUND" value="ae81ff" />
+        <option name="FOREGROUND" value="382da" />
       </value>
     </option>
     <option name="Scala String">
       <value>
-        <option name="FOREGROUND" value="a7e22e" />
+        <option name="FOREGROUND" value="7fdf00" />
       </value>
     </option>
     <option name="Scala Template lazy val/var">
@@ -680,7 +691,11 @@
       </value>
     </option>
     <option name="Scala Type Alias" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
-    <option name="Scala Type parameter" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
+    <option name="Scala Type parameter">
+      <value>
+        <option name="FOREGROUND" value="805aff" />
+      </value>
+    </option>
     <option name="Scala Valid escape in string">
       <value>
         <option name="FOREGROUND" value="7fdf00" />
@@ -688,7 +703,7 @@
     </option>
     <option name="Scala XML attribute value">
       <value>
-        <option name="FOREGROUND" value="a7e22e" />
+        <option name="FOREGROUND" value="7fdf00" />
       </value>
     </option>
     <option name="ScalaDoc comment tag">
@@ -717,7 +732,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="f6f6f6" />
-        <option name="BACKGROUND" value="12130d" />
+        <option name="BACKGROUND" value="1b1c16" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -728,14 +743,13 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="fef629" />
-        <option name="FONT_TYPE" value="2" />
-        <option name="ERROR_STRIPE_COLOR" value="287bde" />
+        <option name="FOREGROUND" value="b4abea" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ae81ff" />
+        <option name="FOREGROUND" value="382da" />
       </value>
     </option>
     <option name="TYPO">
@@ -761,7 +775,7 @@
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="e5e7e8" />
+        <option name="EFFECT_COLOR" value="3c3f41" />
         <option name="ERROR_STRIPE_COLOR" value="96d22f" />
       </value>
     </option>
